@@ -151,6 +151,9 @@ const pluginCreator: PluginCreator<Options> = (options) => {
 		OnceExit: processor
 	};
 };
-pluginCreator.postcss = true;
 
 export default pluginCreator;
+
+pluginCreator.postcss = true;
+
+module.exports = pluginCreator;

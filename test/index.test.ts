@@ -3,8 +3,8 @@ import fs from 'fs';
 import MurmurHash from 'imurmurhash';
 import postcss from 'postcss';
 
-import plugin from '..';
-import type { Options } from '..';
+import plugin from '../dist';
+import type { Options } from '../dist';
 
 const loadCSSFromCase = (name: string) =>
 	fs.readFileSync(`${__dirname}/__fixtures__/${name.replace(/\s+/g, '-')}.css`, 'utf8');

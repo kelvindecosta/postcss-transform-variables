@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`collisions can be ignored 1`] = `
+":root {
+	--kd-re: red;
+	--kd-bl: blue;
+	--kd-bl: black;
+}
+
+p {
+	color: var(--kd-re);
+	background-color: var(--kd-bl);
+}
+
+a {
+	color: var(--kd-bl);
+}
+"
+`;
+
+exports[`collisions can be logged as warnings 1`] = `
+":root {
+	--kd-re: red;
+	--kd-bl: blue;
+	--black: black;
+}
+
+p {
+	color: var(--kd-re);
+	background-color: var(--black);
+}
+
+a {
+	color: var(--kd-bl);
+}
+"
+`;
+
+exports[`non-determinism can be ignored 1`] = `
+":root {
+	--kd-ef934a92: red;
+}
+
+p {
+	color: var(--kd-c7d1e12d);
+}
+
+blockquote {
+	color: var(--kd-560c096c);
+}
+"
+`;
+
+exports[`non-determinism can be logged as warnings 1`] = `
+":root {
+	--kd-eb5026fd: red;
+}
+
+p {
+	color: var(--kd-eb5026fd);
+}
+
+blockquote {
+	color: var(--kd-eb5026fd);
+}
+"
+`;
+
+exports[`transform with a double hyphen should handle a single variable 1`] = `
+":root {
+	--kd-red: red;
+}
+
+p {
+	color: var(--kd-red);
+}
+"
+`;
+
+exports[`transform with a double hyphen should handle a single variable used multiple times 1`] = `
+":root {
+	--kd-red: red;
+}
+
+p {
+	color: var(--kd-red);
+}
+
+blockquote {
+	color: var(--kd-red);
+}
+"
+`;
+
+exports[`transform with a double hyphen should handle a single variable using another 1`] = `
+":root {
+	--kd-red: red;
+}
+
+a {
+	--kd-link-color: var(--kd-red);
+	color: var(--kd-link-color);
+}
+"
+`;
+
+exports[`transform with a double hyphen should handle a single variable with a fallback 1`] = `
+":root {
+	--kd-red: red;
+}
+
+p {
+	color: var(--kd-red, pink);
+}
+"
+`;
+
+exports[`transform with a double hyphen should handle multiple variables 1`] = `
+":root {
+	--kd-red: red;
+	--kd-blue: blue;
+	--kd-black: black;
+}
+
+p {
+	color: var(--kd-red);
+	background-color: var(--kd-black);
+}
+
+a {
+	color: var(--kd-blue);
+}
+"
+`;
+
+exports[`transform with a double hyphen should handle multiple variables in a single property 1`] = `
+":root {
+	--kd-padding-y: 2px;
+	--kd-padding-x: 4px;
+}
+
+p {
+	padding-block: var(--kd-padding-y) var(--kd-padding-x);
+}
+"
+`;
+
+exports[`transform with a double hyphen should handle multiple variables inside functions 1`] = `
+":root {
+	--kd-h: 200;
+	--kd-s: 50%;
+	--kd-l: 50%;
+}
+
+a {
+	color: hsl(var(--kd-h) var(--kd-s) var(--kd-l));
+}
+"
+`;
+
+exports[`transform without a double hyphen should handle a single variable 1`] = `
+":root {
+	--kd-red: red;
+}
+
+p {
+	color: var(--kd-red);
+}
+"
+`;
+
+exports[`transform without a double hyphen should handle a single variable used multiple times 1`] = `
+":root {
+	--kd-red: red;
+}
+
+p {
+	color: var(--kd-red);
+}
+
+blockquote {
+	color: var(--kd-red);
+}
+"
+`;
+
+exports[`transform without a double hyphen should handle a single variable using another 1`] = `
+":root {
+	--kd-red: red;
+}
+
+a {
+	--kd-link-color: var(--kd-red);
+	color: var(--kd-link-color);
+}
+"
+`;
+
+exports[`transform without a double hyphen should handle a single variable with a fallback 1`] = `
+":root {
+	--kd-red: red;
+}
+
+p {
+	color: var(--kd-red, pink);
+}
+"
+`;
+
+exports[`transform without a double hyphen should handle multiple variables 1`] = `
+":root {
+	--kd-red: red;
+	--kd-blue: blue;
+	--kd-black: black;
+}
+
+p {
+	color: var(--kd-red);
+	background-color: var(--kd-black);
+}
+
+a {
+	color: var(--kd-blue);
+}
+"
+`;
+
+exports[`transform without a double hyphen should handle multiple variables in a single property 1`] = `
+":root {
+	--kd-padding-y: 2px;
+	--kd-padding-x: 4px;
+}
+
+p {
+	padding-block: var(--kd-padding-y) var(--kd-padding-x);
+}
+"
+`;
+
+exports[`transform without a double hyphen should handle multiple variables inside functions 1`] = `
+":root {
+	--kd-h: 200;
+	--kd-s: 50%;
+	--kd-l: 50%;
+}
+
+a {
+	color: hsl(var(--kd-h) var(--kd-s) var(--kd-l));
+}
+"
+`;

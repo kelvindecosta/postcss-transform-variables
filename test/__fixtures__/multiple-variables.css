@@ -1,0 +1,14 @@
+:root {
+	--red: red;
+	--blue: blue;
+	--black: black;
+}
+
+p {
+	color: var(--red);
+	background-color: var(--black);
+}
+
+a {
+	color: var(--blue);
+}

@@ -1,0 +1,11 @@
+:root {
+	--red: red;
+}
+
+p {
+	color: var(--red);
+}
+
+blockquote {
+	color: var(--red);
+}

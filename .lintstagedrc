@@ -1,0 +1,4 @@
+{
+	"**/*.{js,ts}": "eslint . --cache --fix",
+	"**/*.{cjs,js,json,md,ts,yaml}": "prettier --write --plugin-search-dir=. ."
+}

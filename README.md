@@ -1,8 +1,9 @@
 # postcss-transform-variables
 
-[![Version](https://img.shields.io/npm/v/postcss-transform-variables)](https://github.com/postcss/postcss-transform-variables/blob/master/CHANGELOG.md)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/kelvindecosta/postcss-transform-variables)](https://github.com/postcss/postcss-transform-variables/blob/master/CHANGELOG.md)
 [![PostCSS Compatibility](https://img.shields.io/npm/dependency-version/postcss-transform-variables/peer/postcss)](https://postcss.org/)
 [![Tests](https://github.com/kelvindecosta/postcss-transform-variables/actions/workflows/ci.yml/badge.svg)](https://github.com/kelvindecosta/postcss-transform-variables/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/kelvindecosta/postcss-transform-variables)](https://github.com/kelvindecosta/postcss-transform-variables/blob/main/LICENSE)
 
 [PostCSS] plugin that transforms identifiers of [CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*).
 
@@ -68,7 +69,7 @@ Will be applied on the identifier of each custom property.
 
 ##### Returns: `string`
 
-#### Default: `({ identifier}) => identifier`
+#### Default: `({ identifier }) => identifier`
 
 ### `warnOnDetectCollision`
 

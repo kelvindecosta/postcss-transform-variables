@@ -1,6 +1,6 @@
 {
 	"name": "postcss-transform-variables",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "PostCSS plugin that transforms identifiers of CSS custom properties",
 	"main": "dist/index.js",
 	"module": "dist/index.js",

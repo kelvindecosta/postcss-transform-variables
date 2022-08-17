@@ -13,15 +13,15 @@
 
 ```diff
  :root {
--	--kd-padding-y: 2px;
--	--kd-padding-x: 4px;
-+	--padding-y: 2px;
-+	--padding-x: 4px;
++  --kd-padding-y: 2px;
++  --kd-padding-x: 4px;
+-  --padding-y: 2px;
+-  --padding-x: 4px;
  }
 
  p {
--	padding-block: var(--kd-padding-y) var(--kd-padding-x);
-+	padding-block: var(--padding-y) var(--padding-x);
++  padding-block: var(--kd-padding-y) var(--kd-padding-x);
+-  padding-block: var(--padding-y) var(--padding-x);
  }
 ```
 
@@ -44,11 +44,11 @@ Include `postcss-transform-variables` in the PostCSS configuration (eg: `postcss
 
 ```js
 module.exports = {
-	plugins: [
-		require('postcss-transform-variables')({
-			transform: ({ identifier }) => `web-${identifier}`
-		})
-	]
+  plugins: [
+    require('postcss-transform-variables')({
+      transform: ({ identifier }) => `web-${identifier}`
+    })
+  ]
 };
 ```
 

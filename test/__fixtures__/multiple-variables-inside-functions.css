@@ -1,9 +1,9 @@
 :root {
-	--h: 200;
-	--s: 50%;
-	--l: 50%;
+  --h: 200;
+  --s: 50%;
+  --l: 50%;
 }
 
 a {
-	color: hsl(var(--h) var(--s) var(--l));
+  color: hsl(var(--h) var(--s) var(--l));
 }

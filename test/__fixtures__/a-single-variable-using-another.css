@@ -1,8 +1,8 @@
 :root {
-	--red: red;
+  --red: red;
 }
 
 a {
-	--link-color: var(--red);
-	color: var(--link-color);
+  --link-color: var(--red);
+  color: var(--link-color);
 }

@@ -1,8 +1,8 @@
 :root {
-	--padding-y: 2px;
-	--padding-x: 4px;
+  --padding-y: 2px;
+  --padding-x: 4px;
 }
 
 p {
-	padding-block: var(--padding-y) var(--padding-x);
+  padding-block: var(--padding-y) var(--padding-x);
 }

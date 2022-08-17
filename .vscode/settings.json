@@ -1,19 +1,19 @@
 {
-	// Editor
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true
-	},
-	"editor.occurrencesHighlight": false,
-	"editor.tabSize": 2,
+  // Editor
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.occurrencesHighlight": false,
+  "editor.tabSize": 2,
 
-	// ESLint
-	"eslint.probe": ["javascript", "typescript", "svelte"],
-	"eslint.validate": ["javascript", "typescript", "svelte"],
+  // ESLint
+  "eslint.probe": ["javascript", "typescript", "svelte"],
+  "eslint.validate": ["javascript", "typescript", "svelte"],
 
-	// Files
-	"files.trimTrailingWhitespace": true,
+  // Files
+  "files.trimTrailingWhitespace": true,
 
-	// GitLens
-	"gitlens.codeLens.authors.enabled": false,
-	"gitlens.codeLens.recentChange.enabled": false
+  // GitLens
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false
 }

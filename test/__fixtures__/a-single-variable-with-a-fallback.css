@@ -1,7 +1,7 @@
 :root {
-	--red: red;
+  --red: red;
 }
 
 p {
-	color: var(--red, pink);
+  color: var(--red, pink);
 }
